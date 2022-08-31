@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="enter the page" skipped="0" tests="1" time="1.0" timestamp="2022-08-31 04:11:28"><testcase name="enter the page"><error message="Cannot invoke &quot;net.serenitybdd.screenplay.actors.Stage.theActorInTheSpotlight()&quot; because the return value of &quot;net.serenitybdd.screenplay.actors.OnStage.stage()&quot; is null" type="java.lang.NullPointerException">Cannot invoke "net.serenitybdd.screenplay.actors.Stage.theActorInTheSpotlight()" because the return value of "net.serenitybdd.screenplay.actors.OnStage.stage()" is null</error><system-err>Cannot invoke "net.serenitybdd.screenplay.actors.Stage.theActorInTheSpotlight()" because the return value of "net.serenitybdd.screenplay.actors.OnStage.stage()" is null&#13;
-co.com.andrescepeda.stepdefinitions.NoticiasStepDefinition.since_you_enter_the_website(NoticiasStepDefinition.java:30)&#13;
-✽.Since you enter the website "https://andrescepeda.com.co/welcome"(src/test/resources/features/noticias.feature:3)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="enter the page" skipped="0" tests="1" time="19.84" timestamp="2022-08-31 04:14:32"><testcase name="enter the page"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+co.com.andrescepeda.tasks.ToWrite.performAs(ToWrite.java:18)&#13;
+co.com.andrescepeda.stepdefinitions.NoticiasStepDefinition.you_select_the_News_option_and_select_a_publication(NoticiasStepDefinition.java:37)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
 </system-err></testcase></testsuite>

@@ -13,6 +13,8 @@ import net.thucydides.core.annotations.Managed;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
+import static net.serenitybdd.screenplay.actors.OnStage.*;
+
 public class NoticiasStepDefinition {
 
     @Managed
@@ -20,19 +22,19 @@ public class NoticiasStepDefinition {
 
     @Before
     public void inicial(){
-        OnStage.setTheStage(new OnlineCast());
-        OnStage.theActorCalled("luna");
-        OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(hisBrowser));
+        setTheStage(new OnlineCast());
+        theActorCalled("luna");
+        theActorInTheSpotlight().can(BrowseTheWeb.with(hisBrowser));
     }
 
     @Given("^Since you enter the website \"([^\"]*)\"$")
     public void since_you_enter_the_website(String url) {
-        OnStage.theActorInTheSpotlight().wasAbleTo(Open.url(url));
+        theActorInTheSpotlight().wasAbleTo(Open.url(url));
     }
 
     @When("^you select the News option and select a publication$")
     public void you_select_the_News_option_and_select_a_publication() {
-        OnStage.theActorInTheSpotlight().attemptsTo(ToWrite.noticias());
+        theActorInTheSpotlight().attemptsTo(ToWrite.noticias());
 
     }
 
