@@ -15,8 +15,9 @@ public class ObtainInformationEvents implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(EventsHome.BTN_EVENTS));
-        actor.attemptsTo(Scroll.to(EventsHome.BTN_NEXTEVENTS));
+
+
+        actor.attemptsTo(Scroll.to(EventsHome.TXT_TICKET));
         actor.attemptsTo(Click.on(EventsHome.BTN_NEXTEVENTS));
         actor.attemptsTo(Scroll.to(EventsHome.TXT_VERIFYDATE));
         actor.attemptsTo(Scroll.to(EventsHome.TXT_VERIFYLOCATIONEVENT));

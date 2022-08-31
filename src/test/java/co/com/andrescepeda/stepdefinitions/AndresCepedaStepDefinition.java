@@ -36,7 +36,8 @@ public class AndresCepedaStepDefinition {
 
 
     @When("^select the option Eventos and select the one publication$")
-    public void select_the_option_Eventos_and_select_the_one_publication() {
+    public void select_the_option_Eventos_and_select_the_one_publication() throws InterruptedException {
+        Thread.sleep(5000);
         theActorInTheSpotlight().attemptsTo(ObtainInformationEvents.inThePage());
     }
 
