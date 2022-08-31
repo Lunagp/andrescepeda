@@ -10,4 +10,5 @@ public class EventsHome {
     public static final Target TXT_VERIFYDATE = Target.the("campo de texto verificación fecha de eventos").located(By.xpath("//span[@class = 'sqs-tourdates__date']"));
     public static final Target TXT_VERIFYNAMEEVENT = Target.the("campo de texto verificación nombre de evento").located(By.xpath("//div[@class = 'sqs-tourdates__venue-name']"));
     public static final Target TXT_VERIFYLOCATIONEVENT = Target.the("campo de texto verificación nombre de evento").located(By.xpath("//div[2]/a[@href = 'https://bandsintown.com/e/103527517']"));
+    public static final Target TXT_TICKET = Target.the("btn ticket").located(By.xpath("//*[@id='yui_3_17_2_1_1661980248247_1081']"));
 }
