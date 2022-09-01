@@ -2,64 +2,9 @@
 <testsuite name="co.com.andrescepeda.runners.PaginaRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-7PSJJ0Q" time="0.0">
   <properties/>
   <system-out><![CDATA[
-?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/features/pagina.feature:15 ?[0m# Interact to website on the option Events
-
-5 Scenarios (?[31m1 failed?[0m, ?[32m4 passed?[0m)
-15 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m13 passed?[0m)
-1m17,318s
-
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/live" class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element" data-initialized="true">...</a> is not clickable at point (674, 22). Other element would receive the click: <a href="/#discografa-section">...</a>
-  (Session info: chrome=105.0.5195.53)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e7251d6f3c3f19e95f67b3a40598330e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1227)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(<generated>)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(<generated>)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.andrescepeda.tasks.Event.performAs(Event.java:22)
-	at co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c.CGLIB$performAs$0(<generated>)
-	at co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c$$FastClassByCGLIB$$7d40dd1b.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
-	at co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c.performAs(<generated>)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.andrescepeda.stepdefinitions.PaginaStepDefinitions.when_you_select_the_events_option_and_the_upcoming_events_option(PaginaStepDefinitions.java:88)
-	at ?.When you select the Events option and the Upcoming Events option(src/test/resources/features/pagina.feature:17)
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+1m11,720s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
@@ -80,46 +25,6 @@ Session ID: e7251d6f3c3f19e95f67b3a40598330e
 -------------------------------------------------------------------------------------
 ?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: enter the page
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Interact to website on the option News
--------------------------------------------------------------------(enter-the-page;interact-to-website-on-the-option-news)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Interact to website on the option Bio
--------------------------------------------------------------------(enter-the-page;interact-to-website-on-the-option-bio)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Interact to website on the option Events
--------------------------------------------------------------------(enter-the-page;interact-to-website-on-the-option-events)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Interact to website on the option Photos
--------------------------------------------------------------------(enter-the-page;interact-to-website-on-the-option-photos)
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
