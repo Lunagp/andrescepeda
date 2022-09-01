@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <testsuite name="enter the page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T21:27:32" hostname="DESKTOP-7MNG5Q6" time="10.37">
   <properties/>
   <testcase name="enter the page" classname="enter the page" time="10.37"/>
@@ -20,79 +21,23 @@ ChromeDriver was started successfully.
 sep. 01, 2022 4:27:35 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 =======
 <testsuite name="enter the page" tests="5" skipped="0" failures="1" errors="0" timestamp="2022-09-01T21:21:40" hostname="DESKTOP-7PSJJ0Q" time="76.956">
+=======
+<testsuite name="enter the page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T21:28:03" hostname="DESKTOP-7PSJJ0Q" time="71.164">
+>>>>>>> 4701fc2cc0b5619f64cb132ddf99925ab80449cf
   <properties/>
-  <testcase name="Interact to website on the option News" classname="enter the page" time="8.807"/>
-  <testcase name="Interact to website on the option Bio" classname="enter the page" time="7.532"/>
-  <testcase name="Interact to website on the option Events" classname="enter the page" time="7.38">
-    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=105.0.5195.53)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e7251d6f3c3f19e95f67b3a40598330e" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=105.0.5195.53)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e7251d6f3c3f19e95f67b3a40598330e
-	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base@15/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@15/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base@15/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1227)
-	at app//net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
-	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
-	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
-	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at app//co.com.andrescepeda.tasks.Event.performAs(Event.java:22)
-	at app//co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c.CGLIB$performAs$0(&lt;generated&gt;)
-	at app//co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c$$FastClassByCGLIB$$7d40dd1b.invoke(&lt;generated&gt;)
-	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
-	at app//co.com.andrescepeda.tasks.Event$$EnhancerByCGLIB$$61a1e40c.performAs(&lt;generated&gt;)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at app//co.com.andrescepeda.stepdefinitions.PaginaStepDefinitions.when_you_select_the_events_option_and_the_upcoming_events_option(PaginaStepDefinitions.java:88)
-	at ✽.When you select the Events option and the Upcoming Events option(src/test/resources/features/pagina.feature:17)
-</failure>
-  </testcase>
-  <testcase name="Interact to website on the option Photos" classname="enter the page" time="18.071"/>
-  <testcase name="Interact to website on the option Store" classname="enter the page" time="34.966"/>
-  <system-out><![CDATA[ENTREVISTA: 'GUITARRA Y VOZ', LA PROPUESTA MÁS ÍNTIMA DE ANDRÉS CEPEDA
-Productor, cantante y compositor bogotano que cuenta con una trayectoria única, que le ha permitido girar por el mundo; ser portada de múltiples revistas, diarios y Playlist en importantes plataformas musicales, ser jurado en programas de talento, lograr primeros lugares en la radio con innumerables sencillos, participar en shows en vivo y/o grabaciones en estudio con grandes artistas como: Juan Luis Guerra, Jessi &  Joy, Cali & El Dandee, Morat, Joss Favela, Leo Dan, Fonseca, Ricardo Montaner, Kany García, Tommy Torres, entre muchos otros.
-https://www.instagram.com/p/Ch3EcGtAInd/
-]]></system-out>
+  <testcase name="Interact to website on the option Store" classname="enter the page" time="71.164"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website "https://andrescepeda.com.co/"
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:21:40 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:28:03 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: "--disable-notifications, -..., goog:chromeOptions: {args: [--", --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito", --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 41517
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 13993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
+<<<<<<< HEAD
 [1662067303.055][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
 sep. 01, 2022 4:21:43 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
@@ -273,6 +218,10 @@ Please see https://chromedriver.chromium.org/security-considerations for suggest
 ChromeDriver was started successfully.
 [1662067343.680][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
 sep. 01, 2022 4:22:23 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+=======
+[1662067686.263][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:28:06 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+>>>>>>> 4701fc2cc0b5619f64cb132ddf99925ab80449cf
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
