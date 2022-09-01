@@ -15,6 +15,6 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 87e19f8b112381389f928cddf6d818c2
 *** Element info: {Using=xpath, value=html/body/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div/div/div[2]/div/article/div/div[2]/div/div/div/div/header/div[2]/div/div/div/div/div/span/a}&#13;
-co.com.andrescepeda.stepdefinitions.PhotosStepDefinition.you_should_see_on_the_console_the_photos_information_provided_by_the_website(PhotosStepDefinition.java:50)&#13;
-✽.you should see on the console the photos information provided by the website(src/test/resources/features/photos.feature:6)&#13;
+
+
 </system-err></testcase></testsuite>
