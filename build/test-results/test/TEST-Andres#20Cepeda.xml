@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Andres Cepeda" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-31T21:14:39" hostname="DESKTOP-7PSJJ0Q" time="73.257">
+<testsuite name="Andres Cepeda" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-31T21:51:26" hostname="DESKTOP-7PSJJ0Q" time="18.998">
   <properties/>
-  <testcase name="Interact to website Andres Cepeda" classname="Andres Cepeda" time="73.257">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='yui_3_17_2_1_1661980248247_1081']&quot;}&#10;  (Session info: chrome=105.0.5195.53)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cea3cc9d137fa1aef324f1e464aea35a&#10;*** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='yui_3_17_2_1_1661980248247_1081']&quot;}
+  <testcase name="Interact to website Andres Cepeda" classname="Andres Cepeda" time="18.998">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='yui_3_17_2_1_1661980248247_1081']&quot;}&#10;  (Session info: chrome=105.0.5195.53)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 542910de9ef9c871ad4048cd988d5aba&#10;*** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='yui_3_17_2_1_1661980248247_1081']&quot;}
   (Session info: chrome=105.0.5195.53)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cea3cc9d137fa1aef324f1e464aea35a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 542910de9ef9c871ad4048cd988d5aba
 *** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}
 	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -68,35 +68,29 @@ Session ID: cea3cc9d137fa1aef324f1e464aea35a
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given that enter the page "https://andrescepeda.com.co/"
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Andres opens the https://andrescepeda.com.co/
-ago. 31, 2022 4:14:40 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+ago. 31, 2022 4:51:27 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: "--disable-notifications, -..., goog:chromeOptions: {args: [--", --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito", --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 34780
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 6333
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1661980483.199][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
-ago. 31, 2022 4:14:43 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1661982690.848][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+ago. 31, 2022 4:51:30 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP When select the option Eventos and select the one publication
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Andres obtain information events
-[1661980512.841][SEVERE]: Timed out receiving message from renderer: 10.000
-[1661980512.842][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1661980522.848][SEVERE]: Timed out receiving message from renderer: 10.000
-[1661980532.862][SEVERE]: Timed out receiving message from renderer: 10.000
-[1661980532.862][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1661980542.874][SEVERE]: Timed out receiving message from renderer: 10.000
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='yui_3_17_2_1_1661980248247_1081']"}
   (Session info: chrome=105.0.5195.53)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cea3cc9d137fa1aef324f1e464aea35a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 542910de9ef9c871ad4048cd988d5aba
 *** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='yui_3_17_2_1_1661980248247_1081']"}
   (Session info: chrome=105.0.5195.53)
@@ -104,8 +98,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cea3cc9d137fa1aef324f1e464aea35a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 542910de9ef9c871ad4048cd988d5aba
 *** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='yui_3_17_2_1_1661980248247_1081']"}
   (Session info: chrome=105.0.5195.53)
@@ -113,8 +107,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cea3cc9d137fa1aef324f1e464aea35a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 542910de9ef9c871ad4048cd988d5aba
 *** Element info: {Using=xpath, value=//*[@id='yui_3_17_2_1_1661980248247_1081']}?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then you should see on the console  the information provided by the web page
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[33mIGNORING STEP?[0m
