@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m14.76s</div>
+<div class="counter">1m16.76s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">60%</div>
+<div class="percent">80%</div>
 <p>successful</p>
 </div>
 </td>
@@ -76,89 +76,21 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="Interact to website on the option store Andres Cepeda"></a>
-<h3 class="failures">Interact to website on the option store Andres Cepeda</h3>
-<span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2893616b6c5ca5ae74eb71547461b4ef
-*** Element info: {Using=xpath, value=//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi}
-	at java.base@15.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@15.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base@15.0.2/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@15.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base@15.0.2/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at app//org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at app//net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
-	at app//net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
-	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:217)
-	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.getWrappedElement(WebElementFacadeImpl.java:1359)
-	at app//org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.base@15.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base@15.0.2/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.base@15.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base@15.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base@15.0.2/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-	at java.base@15.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base@15.0.2/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at app//net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.executeScript(JavascriptExecutorFacade.java:70)
-	at app//net.serenitybdd.core.pages.PageObject.evaluateJavascript(PageObject.java:1177)
-	at app//net.serenitybdd.screenplay.actions.ScrollTo.performScrollTo(ScrollTo.java:23)
-	at app//net.serenitybdd.screenplay.actions.ScrollToTarget.performAs(ScrollToTarget.java:14)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at app//net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:198)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:169)
-	at app//co.com.andrescepeda.tasks.BuyItems.performAs(BuyItems.java:28)
-	at app//co.com.andrescepeda.tasks.BuyItems$$EnhancerByCGLIB$$ec0a22f8.CGLIB$performAs$0(&lt;generated&gt;)
-	at app//co.com.andrescepeda.tasks.BuyItems$$EnhancerByCGLIB$$ec0a22f8$$FastClassByCGLIB$$fd1caf2b.invoke(&lt;generated&gt;)
-	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:461)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:446)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:421)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:176)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:163)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
-	at app//co.com.andrescepeda.tasks.BuyItems$$EnhancerByCGLIB$$ec0a22f8.performAs(&lt;generated&gt;)
-	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at app//co.com.andrescepeda.stepdefinitions.PaginaStepDefinitions.select_the_option_Store_and_buy_two_items(PaginaStepDefinitions.java:56)
-	at ✽.select the option Store and buy two items(src/test/resources/features/pagina.feature:29)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="enter the page"></a>
-<h3 class="failures">enter the page</h3>
+<a name="Interact to website on the option Events"></a>
+<h3 class="failures">Interact to website on the option Events</h3>
 <span class="code">
 <pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=104.0.5112.102)
+  (Session info: chrome=105.0.5195.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f493a737a398911fcc9887dfc0ccd5d
-	at java.base@15.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@15.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base@15.0.2/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@15.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base@15.0.2/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7251d6f3c3f19e95f67b3a40598330e
+	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base@15/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@15/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base@15/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
 	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -213,28 +145,28 @@ Session ID: 9f493a737a398911fcc9887dfc0ccd5d
 </tr>
 </thead>
 <tr>
-<td class="success">Interact to website on the option photos Andres Cepeda</td>
-<td class="success">17.972s</td>
+<td class="success">Interact to website on the option Bio</td>
+<td class="success">7.532s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Interact to website on the option store Andres Cepeda</td>
-<td class="failures">30.317s</td>
+<td class="failures">Interact to website on the option Events</td>
+<td class="failures">7.380s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">enter the page</td>
-<td class="success">8.531s</td>
+<td class="success">Interact to website on the option News</td>
+<td class="success">8.807s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">enter the page</td>
-<td class="failures">7.789s</td>
-<td class="failures">failed</td>
+<td class="success">Interact to website on the option Photos</td>
+<td class="success">18.071s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">enter the page</td>
-<td class="success">10.149s</td>
+<td class="success">Interact to website on the option Store</td>
+<td class="success">34.966s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -253,15 +185,16 @@ https://www.instagram.com/p/Ch3EcGtAInd/
 <span class="code">
 <pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website &quot;https://andrescepeda.com.co/&quot;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:00:39 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:21:40 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: &quot;--disable-notifications, -..., goog:chromeOptions: {args: [--&quot;, --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito&quot;, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 30506
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 41517
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep. 01, 2022 4:00:42 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1662067303.055][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:21:43 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -283,19 +216,20 @@ INFO: Detected dialect: W3C
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: enter the page
+TEST PASSED: Interact to website on the option News
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website &quot;https://andrescepeda.com.co/&quot;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:00:49 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:21:49 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: &quot;--disable-notifications, -..., goog:chromeOptions: {args: [--&quot;, --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito&quot;, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 17488
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 33778
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep. 01, 2022 4:00:50 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1662067310.675][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:21:50 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -317,19 +251,20 @@ INFO: Detected dialect: W3C
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: enter the page
+TEST PASSED: Interact to website on the option Bio
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website &quot;https://andrescepeda.com.co/&quot;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:00:57 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:21:56 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: &quot;--disable-notifications, -..., goog:chromeOptions: {args: [--&quot;, --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito&quot;, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 20992
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 34108
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep. 01, 2022 4:00:59 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1662067318.053][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:21:58 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -337,33 +272,33 @@ INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Luna event
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna clicks on boton de proximos eventos
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=104.0.5112.102)
+  (Session info: chrome=105.0.5195.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f493a737a398911fcc9887dfc0ccd5d?[0m
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7251d6f3c3f19e95f67b3a40598330e?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=104.0.5112.102)
+  (Session info: chrome=105.0.5195.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f493a737a398911fcc9887dfc0ccd5d?[0m
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7251d6f3c3f19e95f67b3a40598330e?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=104.0.5112.102)
+  (Session info: chrome=105.0.5195.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f493a737a398911fcc9887dfc0ccd5d?[0m
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7251d6f3c3f19e95f67b3a40598330e?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=104.0.5112.102)
+  (Session info: chrome=105.0.5195.53)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-7PSJJ0Q', ip: '10.185.81.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f493a737a398911fcc9887dfc0ccd5d?[0m
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.53, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SENA\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7251d6f3c3f19e95f67b3a40598330e?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then When you select the Events option and the Upcoming Events option event
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[33mIGNORING STEP?[0m
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
@@ -374,21 +309,22 @@ Session ID: 9f493a737a398911fcc9887dfc0ccd5d?[0m
  (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
           \_\                                                            
 
-TEST FAILED WITH ERROR: enter the page
+TEST FAILED WITH ERROR: Interact to website on the option Events
 ---------------------------------------------------------------------?[0m
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP luna clicks on boton de proximos eventos?[0m
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element click intercepted: Element &lt;a href=&quot;/live&quot; class=&quot;sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element&quot; data-initialized=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 22). Other element would receive the click: &lt;a href=&quot;/#discografa-section&quot;&gt;...&lt;/a&gt;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website &quot;https://andrescepeda.com.co/&quot;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:01:05 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:22:04 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: &quot;--disable-notifications, -..., goog:chromeOptions: {args: [--&quot;, --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito&quot;, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 45519
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 39915
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep. 01, 2022 4:01:07 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1662067325.597][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:22:05 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -410,19 +346,20 @@ INFO: Detected dialect: W3C
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: Interact to website on the option photos Andres Cepeda
+TEST PASSED: Interact to website on the option Photos
 ----------------------------------------------------------------------------?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given Since you enter the website &quot;https://andrescepeda.com.co/&quot;
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna opens the https://andrescepeda.com.co/
-sep. 01, 2022 4:01:23 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+sep. 01, 2022 4:22:22 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: &quot;--disable-notifications, -..., goog:chromeOptions: {args: [--&quot;, --disable-notifications, --enable-automation, --profile-directory=Default, --disable-web-security, --disable-plugins-discovery, --disk-cache-dir=null, --disable-popup-blocking, --disable-downloa-notification, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, always..., --incognito&quot;, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 43084
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 19801
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep. 01, 2022 4:01:25 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1662067343.680][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+sep. 01, 2022 4:22:23 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -438,47 +375,26 @@ INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna clicks on Botón opción articulo 2
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2893616b6c5ca5ae74eb71547461b4ef
-*** Element info: {Using=xpath, value=//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi}?[0m
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2893616b6c5ca5ae74eb71547461b4ef
-*** Element info: {Using=xpath, value=//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi}?[0m
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-7MNG5Q6', ip: '10.185.81.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2893616b6c5ca5ae74eb71547461b4ef
-*** Element info: {Using=xpath, value=//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi}?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna clicks on Botón opción añadir al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP luna clicks on Botón opción finalizar compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then you should see on the console the items information provided by the website
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[33mIGNORING STEP?[0m
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then verify information buy should be (false)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED WITH ERROR: Interact to website on the option store Andres Cepeda
----------------------------------------------------------------------?[0m
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP Luna buy items?[0m
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi&quot;}
+TEST PASSED: Interact to website on the option Store
+----------------------------------------------------------------------------?[0m
 </pre>
 </span>
 </div>
@@ -490,7 +406,7 @@ TEST FAILED WITH ERROR: Interact to website on the option store Andres Cepeda
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 1/09/2022, 4:01:55 p. m.</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 1/09/2022, 4:22:58 p. m.</p>
 </div>
 </div>
 </body>

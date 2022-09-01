@@ -19,6 +19,8 @@ public class StoreHome {
     public static final Target TXT_PRICEITEM2 = Target.the("Texto verificación precio segundo articulo").located(By.xpath("//table/tbody/tr[2]/td[2]/span/bdi"));
     public static final Target TXT_TOTALPRICE = Target.the("Texto verificación precio total por articulos").located(By.xpath("//table/tfoot/tr[3]/td/strong/span/bdi"));
 
+    public static final Target TXT_YOURBUY = Target.the("Texto verificación tu pedido").located(By.xpath("//form[2]/h3"));
+
 
     public static final Target TXT_PRICE = Target.the("texto precio").located(By.xpath("//body/div/div/div/div/div/div/div[2]/div/div[2]/p/span/bdi"));
 

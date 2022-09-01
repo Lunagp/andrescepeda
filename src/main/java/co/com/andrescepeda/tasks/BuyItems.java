@@ -29,6 +29,8 @@ public class BuyItems implements Task {
         actor.attemptsTo(Click.on(StoreHome.BTN_ADD));
         actor.attemptsTo(Scroll.to(StoreHome.BTN_BUYFINISH));
         actor.attemptsTo(Click.on(StoreHome.BTN_BUYFINISH));
+        actor.attemptsTo(Scroll.to(StoreHome.TXT_YOURBUY));
+
 
     }
 }
