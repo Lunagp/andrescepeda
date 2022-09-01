@@ -37,13 +37,13 @@ public class AndresCepedaStepDefinition {
 
     @When("^select the option Eventos and select the one publication$")
     public void select_the_option_Eventos_and_select_the_one_publication() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         theActorInTheSpotlight().attemptsTo(ObtainInformationEvents.inThePage());
     }
 
     @Then("^you should see on the console  the information provided by the web page$")
     public void you_should_see_on_the_console_the_information_provided_by_the_web_page() {
         theActorInTheSpotlight().should(GivenWhenThen.seeThat(VerifyInfoEvents.inThePage(),
-                Matchers.equalTo("2022")));
+                Matchers.equalTo("SEP 8, 2022")));
     }
 }
