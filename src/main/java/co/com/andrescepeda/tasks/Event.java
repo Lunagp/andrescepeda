@@ -6,8 +6,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.questions.Text;
 
-import static co.com.andrescepeda.userinterfaces.EventHome.EVENT;
-import static co.com.andrescepeda.userinterfaces.EventHome.EVENT_ANSWER;
+import static co.com.andrescepeda.userinterfaces.EventHome.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class Event implements Task {
@@ -18,7 +17,7 @@ public class Event implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Scroll.to(EVENT));
+        actor.attemptsTo(Scroll.to(EVENT_SCROLL));
         actor.attemptsTo(Click.on(EVENT));
         System.out.println(Text.of(EVENT_ANSWER).viewedBy(actor).asString());
     }
