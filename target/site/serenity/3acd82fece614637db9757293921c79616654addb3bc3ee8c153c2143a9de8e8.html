@@ -101,7 +101,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-08-2022 22:51</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-09-2022 08:05</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -141,9 +141,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">
+                                <span class="success-color">
                                     Interact to website on the option home Andres Cepeda
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -213,22 +213,22 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                        <th width="%"
-                            class="step-description-wide-column greentext">
+                        <th width="%" class="step-description-column greentext">
                             Steps
                         </th>
+                        <th width="150" class="greentext">Screenshots</th>
                     <th width="130" class="greentext">Outcome</th>
                     <th width="80" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -244,18 +244,27 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">44.81s</span></td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=2">
+                                    <img src="7bd20b7414b312708f373c51fd988889d63b86e3965d05f0442ccf0ce0a3444b.png"
+                                         href="7bd20b7414b312708f373c51fd988889d63b86e3965d05f0442ccf0ce0a3444b.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">21.72s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
                         <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="0-2"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -266,91 +275,217 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">43.95s</span></td>
-                </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="3" class="error-message-cell">
+                        <td width="160" class="SUCCESS-text">
 
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.WebDriverException: The following error occurred: unknown error: cannot determine loading status<br>from disconnected: received Inspector.detached event<br>  (Session info: chrome=104.0.5112.102)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;DESKTOP-JSNU471&#39;, ip: &#39;172.20.16.1&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;15&#39;<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PERSONAL\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 636322b2bb812ca9e2ec5625bcf6e6e4</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.WebDriverException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>co.com.andrescepeda.stepdefinitions.BioStepDefinition.that_enter_the_page_and(BioStepDefinition.java:34)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=1">
+                                    <img src="7bd20b7414b312708f373c51fd988889d63b86e3965d05f0442ccf0ce0a3444b.png"
+                                         href="7bd20b7414b312708f373c51fd988889d63b86e3965d05f0442ccf0ce0a3444b.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    </tr>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">21.22s</span></td>
+                </tr>
 
                         </table>
                     </td>
                 <tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
                         <a name="1"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
                                 <span class="top-level-step">
                                 When select the option Bio and select the one publication
                             </span>
+                            </a>
                             <span class="evidence">
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=3">
+                                    <img src="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         href="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=7">
+                                    <img src="ef2534eadd79df8d703a9a1215ed0b430aa00145af4a925b425b59017cccd547.png"
+                                         href="ef2534eadd79df8d703a9a1215ed0b430aa00145af4a925b425b59017cccd547.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">3.77s</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
                     <td width="50" class="step-icon">
-                        <a name="2"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                        <a name="1-2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1-2 success-icon"
+                                   style="margin-left: 40px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
-                                <span class="top-level-step">
-                                Then you should see on the console the biography information provided by the website
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
+                               style="display:block;">
+                                <span class="nested-step">
+                                Andres obtain information biography
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=4">
+                                    <img src="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         href="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=6">
+                                    <img src="ef2534eadd79df8d703a9a1215ed0b430aa00145af4a925b425b59017cccd547.png"
+                                         href="ef2534eadd79df8d703a9a1215ed0b430aa00145af4a925b425b59017cccd547.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.75s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection1-2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-2-2"/>
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Andres clicks on Botón opción biografia
                             </span>
                             <span class="evidence">
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=5">
+                                    <img src="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         href="ea7ee624341370f5945d3042102c73d47e71da1823679c72ad9468c658d6036a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.42s</span></td>
                 </tr>
-                <tr class="test-ERROR">
-                        <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>45.26s</em></span></td>
+
+                        </table>
+                    </td>
+                <tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Then you should see on the console the biography information provided by the website
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=10">
+                                    <img src="d5632c29e642316cfdea9412f30ff981b96949ce9374f535b3c667a3427402ac.png"
+                                         href="d5632c29e642316cfdea9412f30ff981b96949ce9374f535b3c667a3427402ac.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.34s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-2"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Then verify information biography should be 'SOBRE ANDR&Eacute;S CEPEDA'
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="3acd82fece614637db9757293921c79616654addb3bc3ee8c153c2143a9de8e8_screenshots.html#screenshots?screenshot=9">
+                                    <img src="d5632c29e642316cfdea9412f30ff981b96949ce9374f535b3c667a3427402ac.png"
+                                         href="d5632c29e642316cfdea9412f30ff981b96949ce9374f535b3c667a3427402ac.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.21s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                        <td colspan="3"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>26.09s</em></span></td>
                 </tr>
 
             </table>
