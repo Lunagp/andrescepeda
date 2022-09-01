@@ -14,7 +14,6 @@ public class VerifyInformationPhoto implements Question<Boolean> {
     }
     @Override
     public Boolean answeredBy(Actor actor) {
-        return TXT_NAMEITEM1.resolveFor(actor).getText().contains("hola")
-                && TXT_NAMEITEM2.resolveFor(actor).getText().contains("hola x2 :)");
+        return PhotosHome.PHOTO.resolveFor(actor).getText().contains("Photo");
     }
 }

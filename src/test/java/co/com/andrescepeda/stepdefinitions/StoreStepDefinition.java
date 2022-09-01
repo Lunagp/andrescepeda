@@ -1,5 +1,6 @@
 package co.com.andrescepeda.stepdefinitions;
 
+import co.com.andrescepeda.questions.VerifyInformationBuy;
 import co.com.andrescepeda.questions.VerifyInformationPhoto;
 import co.com.andrescepeda.tasks.BuyItems;
 import cucumber.api.java.Before;
@@ -42,7 +43,7 @@ public class StoreStepDefinition {
 
     @Then("^you should see on the console the items information provided by the website$")
     public void you_should_see_on_the_console_the_items_information_provided_by_the_website() {
-            theActorInTheSpotlight().should(GivenWhenThen.seeThat(VerifyInformationPhoto.inThePage(),
+            theActorInTheSpotlight().should(GivenWhenThen.seeThat(VerifyInformationBuy.inThePage(),
                     Matchers.equalTo(Boolean.FALSE)));
     }
 }

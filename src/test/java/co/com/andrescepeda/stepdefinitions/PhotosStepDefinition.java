@@ -48,6 +48,6 @@ public class PhotosStepDefinition {
     @Then("^you should see on the console the photos information provided by the website$")
     public void you_should_see_on_the_console_the_photos_information_provided_by_the_website() {
         theActorInTheSpotlight().should(GivenWhenThen.seeThat(VerifyInformationPhoto.inThePage(),
-                Matchers.equalTo("andrescepeda")));
+                Matchers.equalTo(Boolean.FALSE)));
     }
 }
